@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 905.2 850.7" enable-background="new 0 0 905.2 850.7" xml:space="preserve">
+	 
+	 <defs>
+    <style type="text/css"><![CDATA[
+      .path {
+  stroke-dasharray: 3500;
+  stroke-dashoffset: 3500;
+  animation: dash 5s linear forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+    ]]></style>
+  </defs>
+<path class="path" id="XMLID_641_" fill="none" stroke="#C6203D" stroke-width="3" stroke-miterlimit="10" d="M878.6,780.7
+	c-1.2-3-2.8-5.7-4.9-8.2l-44.1-52.4c-5.5-6.6-13.7-10.4-22.3-10.4c-5.4,0-10.7-1.5-15.3-4.4l-95.2-58.9c-0.6-0.4-1.3-0.8-1.9-1.1
+	L603.3,598c-5.7-2.9-10.3-7.7-13-13.5l-2.2-4.7c-4.8-10.2-4.7-22,0.2-32.1c6.4-13.1,9.7-27.4,9.7-41.9v-22.4l14.4,5.8
+	c3,1.2,6.4,0.5,8.6-1.8l1.8-1.8c1.5-1.5,2.3-3.5,2.3-5.6v-23.9c0-0.6,0-1.1,0.2-1.7l9.1-42.1c0.2-1.1,0.2-2.3,0-3.4l-4.9-22.4
+	c-0.5-2.5,0.1-5.1,1.8-7l138.1-157.8L431,3.3L178.8,306.7l46.8,26.1v315.6l-37.1,20c-6.8,3.6-14,6.3-21.6,7.8l-37.8,7.6
+	c-15,3-28.7,10.4-39.6,21.2l-2.3,2.3c-5.2,5.2-9.6,11.1-13.2,17.5l-42.7,78c-1.2,2.2-2.5,4.3-3.9,6.3L0,849.6l905.2-1.1L878.6,780.7
+	z M357.6,563.7c-8.4,23.6-27.8,41.6-51.9,48.4l-18.6,5.2c-3.8,1.1-7.6,2.5-11.2,4.1V360.9l36.2,20.2l-6.3,26.1
+	c-0.4,1.8-0.2,3.7,0.6,5.3l10.2,21.1c0.5,1.1,0.8,2.3,0.8,3.5v34.6c0,10.9,10.6,18.6,21,15.1v12.6c0,13,2.7,25.9,7.8,37.9
+	L357.6,563.7z"/>
+<g id="XMLID_144_">
+</g>
+<g id="XMLID_145_">
+</g>
+<g id="XMLID_146_">
+</g>
+<g id="XMLID_147_">
+</g>
+<g id="XMLID_148_">
+</g>
+<g id="XMLID_149_">
+</g>
+</svg>

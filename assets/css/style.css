@@ -1,0 +1,1109 @@
+/*Css for entire page*/
+
+@import url('./fonts.css');
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li.active>a {
+  color: #C6203C !important;
+}
+
+#nav {
+  position: absolute;
+  width: 100%;
+  padding-top: 1.5%;
+}
+
+.democlass {
+  color: white !important;
+  transition-delay: 0.5s;
+}
+
+.democlass1 {
+  color: white !important;
+}
+
+#first, #second, #third, #fourth, #fifth, #sixth, #seventh {
+  margin-bottom: 1.6em !important;
+}
+
+.navi {
+  margin-left: 5.847em;
+}
+
+#nav-style {
+  letter-spacing: 0.3em;
+  font-size: 0.65em;
+  color: black;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+#nav-style0 {
+  letter-spacing: 0.3em;
+  font-size: 0.65em;
+  color: black;
+  font-family: "Roboto";
+  font-weight: 400;
+  margin-left: 0em;
+  z-index: 1;
+}
+
+.extra {
+  padding-left: 3.9%;
+  padding-right: 3.5%;
+}
+
+#logo {
+  height: 3%;
+  width: 3%;
+  padding-bottom: 1.4%;
+  cursor: pointer;
+}
+
+/****************************************************************************************************************************/
+
+/*CSS for page 1 - Home page*/
+
+.blink {
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
+
+#content {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 80%;
+  width: 100%;
+}
+
+#left {
+  flex-grow: 1;
+  width: 0.1%;
+  height: 100%;
+  position: relative;
+}
+
+#middle {
+  flex-grow: 1;
+  width: 41%;
+  height: 100%;
+}
+
+#right {
+  flex-grow: 1;
+  width: 46%;
+  height: 100%;
+  position: relative;
+}
+
+#name {
+  width: 90%;
+}
+
+#outline {
+  width: 80%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#insta {
+  width: 25%;
+  align-content: center;
+  padding-bottom: 20%;
+}
+
+#linkedin {
+  width: 25%;
+  align-content: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+#fb {
+  width: 25%;
+  align-content: center;
+  padding-top: 20%;
+  padding-bottom: 70%;
+}
+
+#social_main {
+  position: absolute;
+  bottom: 0;
+}
+
+#social {
+  text-align: center;
+}
+
+.info {
+  letter-spacing: 0.071em;
+  font-size: 1.21em;
+  color: black;
+  font-family: "Roboto";
+  font-weight: 350;
+}
+
+#info0 {
+  padding-top: 8%;
+  letter-spacing: 0.071em;
+  font-size: 1.21em;
+  color: black;
+  font-family: "Roboto";
+  font-weight: 350;
+}
+
+/****************************************************************************************************************************/
+
+/*CSS for page 2 - About page*/
+
+#content1 {
+  display: flex;
+  height: 77%;
+  width: 100%;
+  bottom: 0;
+}
+
+#left1 {
+  flex-grow: 1;
+  display: inline-block;
+  width: 4%;
+  height: 100%;
+}
+
+#middle1 {
+  flex-grow: 1;
+  display: inline-block;
+  width: 41%;
+  padding-top: 6%;
+  height: 100%;
+}
+
+#right1 {
+  flex-grow: 1;
+  display: inline-block;
+  width: 46%;
+  height: 100%;
+}
+
+#story {
+  font-size: 1.1em;
+  color: black;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+#calling {
+  padding-top: 23%;
+  padding-left: 3%;
+  width: 85%;
+}
+
+/****************************************************************************************************************************/
+
+/*CSS for page 3 - Education*/
+
+#content2 {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  background-color: #071629b4;
+}
+
+#page-three {
+  background-image: url(../img/cmu.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+#nav-bg {
+  width: 100%;
+  height: 13%;
+}
+
+#left2 {
+  flex-grow: 1;
+  width: 65%;
+  height: 70%;
+  float: left;
+}
+
+#right2 {
+  flex-grow: 1;
+  width: 35%;
+  height: 70%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+#cmu-logo {
+  width: 45%;
+  height: 45%;
+  margin-left: 22%;
+  margin-top: 18%;
+  cursor: pointer;
+}
+
+#year {
+  font-size: 0.72em;
+  color: white;
+  margin-top: 8.7%;
+  font-family: "Roboto";
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+#major {
+  font-size: 1.8em;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 700;
+  margin: 0;
+  cursor: pointer;
+}
+
+#gpa {
+  font-size: 1.2em;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 300;
+  margin: 0;
+}
+
+#specs {
+  font-size: 1em;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+#courses {
+  font-size: 1em;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+#c {
+  font-size: 1em;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 700;
+  margin: 0;
+}
+
+#awards {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 11%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.award_container {
+  text-align: center;
+  cursor: pointer;
+}
+
+#award1, #award2, #award3, #award4, #award5, #award6 {
+  width: 63%;
+}
+
+/****************************************************************************************************************************/
+
+/*CSS for page 4 - Experience*/
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  overflow: unset !important;
+}
+
+.swiper-slide {
+  display: flex !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #C6203C !important;
+}
+
+#left3 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#right3 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 1.3em !important;
+  color: #C6203C !important;
+}
+
+.top-margin {
+  margin-top: 8%;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 2em;
+  margin-left: 15%;
+  line-height: 130%;
+  margin-bottom: 0;
+}
+
+.points {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.1em;
+  margin-left: 15%;
+  line-height: 130%;
+  margin-top: 4%;
+}
+
+.mid-info {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.3em;
+  margin-left: 15%;
+  line-height: 130%;
+}
+
+.space {
+  margin-bottom: 0.5em;
+}
+
+#nak {
+  width: 50%;
+}
+
+#bi {
+  color: #00945C;
+}
+
+#sc {
+  width: 60%;
+}
+
+#gis {
+  color: #1A8DBA;
+}
+
+#cmuq1 {
+  width: 35%;
+}
+
+#cmuq2 {
+  color: #C10926;
+}
+
+/****************************************************************************************************************************/
+
+/*CSS for page 5 - Skills*/
+
+#skill {
+  display: flex;
+  justify-content: center;
+}
+
+#tech {
+  color: #0C1C2F;
+  font-family: "Roboto";
+  padding-top: 5%;
+  font-weight: 900;
+  font-size: 3em;
+  text-align: left;
+}
+
+.sk {
+  cursor: pointer;
+  color: #0C1C2F;
+}
+
+/****************************************************************************************************************************/
+
+/*CSS for page 6 - Projects*/
+
+#fifa {
+  width: 45%;
+}
+
+#fi {
+  color: #0B4E92;
+}
+
+#fm {
+  width: 60%;
+}
+
+#fmq {
+  color: #000;
+}
+
+#carne {
+  width: 35%;
+}
+
+#carne1 {
+  color: #C10926;
+}
+
+/****************************************************************************************************************************/
+
+/*CSS for page 7 - Contact*/
+
+footer {
+  background-color: #C5203B;
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+  align-items: center;
+}
+
+#main-foot {
+  margin-left: 4.9%;
+}
+
+#footer-info {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #fff;
+  margin-bottom: 0 !important;
+}
+
+.sl {
+  width: 1.2%;
+}
+
+#ins {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+#linkd {
+  margin-left: 3%;
+  cursor: pointer;
+}
+
+#fbb {
+  margin-right: 3.9%;
+  margin-left: 3%;
+  cursor: pointer;
+}
+
+#main-form {
+  width: 78%;
+  height: 75%;
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+form {
+  display: flex;
+}
+
+#form2 {
+  margin-left: 30%;
+}
+
+.no-border {
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid #C5203B;
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1em;
+  margin-bottom: 100px;
+}
+
+.no-border:focus {
+  outline: none;
+}
+
+.no-border1 {
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid #C5203B;
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1em;
+  margin-bottom: 80px;
+}
+
+.no-border1:focus {
+  outline: none;
+}
+
+.label {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 0.7em;
+  margin-bottom: 0 !important;
+}
+
+.label1 {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 0.7em;
+  margin-bottom: 15px !important;
+}
+
+.round-rectangle {
+  width: 400px;
+  height: 180px;
+  border: 1px solid #C5203B;
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.round-rectangle:focus {
+  outline: none;
+}
+
+#send {
+  float: right !important;
+  background-color: #C5203B;
+  border: none;
+  color: white;
+  width: 27%;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#send:disabled {
+  background-color: rgb(212, 209, 209);
+}
+
+#send:focus {
+  outline: none;
+  background: #b41d36;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+/****************************************************************************************************************************/
+
+/*Media Queries*/
+
+@media only screen and (min-width: 1800px) {
+  .navi {
+    margin-left: 8em;
+  }
+  #nav-style {
+    font-size: 0.715em;
+  }
+  #nav-style0 {
+    font-size: 0.715em;
+  }
+  #logo {
+    padding-bottom: 1.2%;
+  }
+  .info {
+    letter-spacing: 0.077em;
+    font-size: 1.5em;
+  }
+  #info0 {
+    letter-spacing: 0.077em;
+    font-size: 1.5em;
+  }
+  #story {
+    font-size: 1.4em;
+  }
+  #nav-bg {
+    height: 10%;
+  }
+  #year {
+    font-size: 0.9em;
+    color: white;
+    margin-top: 9%;
+  }
+  #major {
+    font-size: 2.5em;
+  }
+  #gpa {
+    font-size: 1.7em;
+  }
+  #specs {
+    font-size: 1.3em;
+  }
+  #courses {
+    font-size: 1.3em;
+  }
+  #c {
+    font-size: 1.3em;
+  }
+  .top-margin {
+    font-size: 2.5em;
+  }
+  .mid-info {
+    font-size: 1.6em;
+  }
+  .points {
+    font-size: 1.3em;
+  }
+  #tech {
+    font-size: 4em;
+  }
+  .no-border {
+    width: 300px;
+    font-size: 1.2em;
+    margin-bottom: 150px;
+  }
+  .no-border1 {
+    width: 300px;
+    font-size: 1.2em;
+    margin-bottom: 165px;
+  }
+  .label {
+    font-size: 0.85em;
+  }
+  .label1 {
+    font-size: 0.85em;
+  }
+  .round-rectangle {
+    width: 420px;
+    height: 200px;
+    font-size: 1.2em;
+  }
+  #main-form {
+    width: 75%;
+  }
+  #footer-info {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1721px) and (max-width: 1800px) {
+  .navi {
+    margin-left: 7.1em;
+  }
+  #nav-style {
+    font-size: 0.715em;
+  }
+  #nav-style0 {
+    font-size: 0.715em;
+  }
+  #logo {
+    padding-bottom: 1.2%;
+  }
+  .info {
+    letter-spacing: 0.077em;
+    font-size: 1.5em;
+  }
+  #info0 {
+    letter-spacing: 0.077em;
+    font-size: 1.5em;
+  }
+  #story {
+    font-size: 1.395em;
+  }
+  #year {
+    font-size: 0.9em;
+    color: white;
+    margin-top: 9%;
+  }
+  #major {
+    font-size: 2.3em;
+  }
+  #gpa {
+    font-size: 1.5em;
+  }
+  #specs {
+    font-size: 1.2em;
+  }
+  #courses {
+    font-size: 1.2em;
+  }
+  #c {
+    font-size: 1.2em;
+  }
+  .top-margin {
+    font-size: 2.4em;
+  }
+  .mid-info {
+    font-size: 1.5em;
+  }
+  .points {
+    font-size: 1.2em;
+  }
+  #tech {
+    font-size: 3.85em;
+  }
+  .no-border {
+    width: 300px;
+    font-size: 1.1em;
+    margin-bottom: 130px;
+  }
+  .no-border1 {
+    width: 300px;
+    font-size: 1.1em;
+    margin-bottom: 125px;
+  }
+  .label {
+    font-size: 0.8em;
+  }
+  .label1 {
+    font-size: 0.8em;
+  }
+  .round-rectangle {
+    width: 420px;
+    height: 200px;
+    font-size: 1.1em;
+  }
+  #main-form {
+    width: 77%;
+  }
+  #footer-info {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1651px) and (max-width: 1720px) {
+  .navi {
+    margin-left: 6.5em;
+  }
+  #nav-style {
+    font-size: 0.715em;
+  }
+  #nav-style0 {
+    font-size: 0.715em;
+  }
+  #logo {
+    padding-bottom: 1.2%;
+  }
+  .info {
+    letter-spacing: 0.077em;
+    font-size: 1.5em;
+  }
+  #info0 {
+    letter-spacing: 0.077em;
+    font-size: 1.5em;
+  }
+  #story {
+    font-size: 1.385em;
+  }
+  #year {
+    font-size: 0.9em;
+    color: white;
+    margin-top: 9%;
+  }
+  #major {
+    font-size: 2.3em;
+  }
+  #gpa {
+    font-size: 1.5em;
+  }
+  #specs {
+    font-size: 1.2em;
+  }
+  #courses {
+    font-size: 1.2em;
+  }
+  #c {
+    font-size: 1.2em;
+  }
+  .top-margin {
+    font-size: 2.4em;
+  }
+  .mid-info {
+    font-size: 1.5em;
+  }
+  .points {
+    font-size: 1.2em;
+  }
+  #tech {
+    font-size: 3.7em;
+  }
+  .no-border {
+    width: 300px;
+    font-size: 1.05em;
+    margin-bottom: 115px;
+  }
+  .no-border1 {
+    width: 300px;
+    font-size: 1.05em;
+    margin-bottom: 100px;
+  }
+  .label {
+    font-size: 0.75em;
+  }
+  .label1 {
+    font-size: 0.75em;
+  }
+  .round-rectangle {
+    width: 400px;
+    height: 190px;
+    font-size: 1.05em;
+  }
+  #main-form {
+    width: 79%;
+  }
+  #footer-info {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1560px) and (max-width: 1650px) {
+  .navi {
+    margin-left: 6.3em;
+  }
+  #nav-style {
+    font-size: 0.7em;
+  }
+  #nav-style0 {
+    font-size: 0.7em;
+  }
+  #logo {
+    padding-bottom: 1.22%;
+  }
+  #story {
+    font-size: 1.37em;
+  }
+  #year {
+    font-size: 0.75em;
+    margin-top: 8.7%;
+  }
+  #major {
+    font-size: 2em;
+  }
+  #gpa {
+    font-size: 1.4em;
+  }
+  #specs {
+    font-size: 1.2em;
+  }
+  #courses {
+    font-size: 1.2em;
+  }
+  #c {
+    font-size: 1.2em;
+  }
+  .top-margin {
+    font-size: 2.2em;
+  }
+  .mid-info {
+    font-size: 1.4em;
+  }
+  .points {
+    font-size: 1.2em;
+  }
+  #tech {
+    font-size: 3.5em;
+  }
+  #footer-info {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 1451px) and (max-width: 1490px) {
+  #main-form {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .navi {
+    margin-left: 5.2em;
+  }
+  #nav-style {
+    font-size: 0.65em;
+  }
+  #nav-style0 {
+    font-size: 0.65em;
+  }
+  #logo {
+    padding-bottom: 1.4%;
+  }
+  .info {
+    letter-spacing: 0.071em;
+    font-size: 1.17em;
+  }
+  #info0 {
+    letter-spacing: 0.071em;
+    font-size: 1.17em;
+  }
+  #story {
+    font-size: 1.05em;
+  }
+  .top-margin {
+    font-size: 1.8em;
+  }
+  .mid-info {
+    font-size: 1.2em;
+  }
+  .points {
+    font-size: 1em;
+  }
+  #tech {
+    font-size: 2.8em;
+  }
+  #main-form {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  .navi {
+    margin-left: 4.2em;
+  }
+  #nav-style {
+    font-size: 0.63em;
+  }
+  #nav-style0 {
+    font-size: 0.63em;
+  }
+  #logo {
+    padding-bottom: 1.3%;
+  }
+  .info {
+    letter-spacing: 0.071em;
+    font-size: 1.13em;
+  }
+  #info0 {
+    letter-spacing: 0.071em;
+    font-size: 1.13em;
+  }
+  #story {
+    font-size: 1em;
+  }
+  #tech {
+    font-size: 2.7em;
+  }
+  #main-form {
+    width: 83%;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  #logo {
+    height: 3.1%;
+    width: 3.1%;
+    padding-bottom: 1.6%;
+  }
+  #year {
+    font-size: 0.7em;
+  }
+  #major {
+    font-size: 1.7em;
+  }
+  #gpa {
+    font-size: 1.1em;
+  }
+  #specs {
+    font-size: 1em;
+  }
+  #courses {
+    font-size: 1em;
+  }
+  #c {
+    font-size: 1em;
+  }
+  #tech {
+    font-size: 2.7em;
+  }
+}
+
+@media only screen and (max-width: 1255px) {
+  .navi {
+    margin-left: 3.5em;
+  }
+  #logo {
+    padding-bottom: 1.6%;
+    height: 3.1%;
+    width: 3.1%;
+  }
+  #nav-style {
+    font-size: 0.63em;
+  }
+  #nav-style0 {
+    font-size: 0.63em;
+  }
+  #year {
+    font-size: 0.7em;
+  }
+  #major {
+    font-size: 1.6em;
+  }
+  #gpa {
+    font-size: 1.1em;
+  }
+  #specs {
+    font-size: 0.9em;
+  }
+  #courses {
+    font-size: 0.9em;
+  }
+  #c {
+    font-size: 0.9em;
+  }
+  #tech {
+    font-size: 2.5em;
+  }
+  #main-form {
+    width: 85%;
+  }
+}
